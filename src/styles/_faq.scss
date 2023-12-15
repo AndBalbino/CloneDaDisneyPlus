@@ -39,7 +39,24 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, .5s ease;
+
+                &__msg{
+                    padding: 0 24px;
+                    
+                    li{
+                        margin-top: 16px;
+                        margin-bottom: 16px;
+
+                        span{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+
+                }
             }
+
+            
 
             &--is-open{
                 .faq__questions__item__question::after{
@@ -52,6 +69,8 @@
                     transition: height, .5s ease;
                 }
             }
+
+            
         }
     }
 }

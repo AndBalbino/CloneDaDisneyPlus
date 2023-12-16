@@ -50,12 +50,12 @@ function abreOuFechaResposta(elemento){
 
 function ocutaElementosDoHeader(){
     const header = document.querySelector('header');
-    header.classList.add('header--is-hidden');
+    header.classList.remove('header--is-hidden');
 }
 
 function exibeElementosDoHeader(){
     const header = document.querySelector('header');
-    header.classList.remove('header--is-hidden');
+    header.classList.add('header--is-hidden');
 }
 
 function escondeTodasAsAbas(){
